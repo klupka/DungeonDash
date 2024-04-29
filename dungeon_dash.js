@@ -76,7 +76,7 @@ window.addEventListener("load", function () {
         // ITEM IMAGES
         const SPRITE_SHEET_HEALTH_POTION = new Image();
         SPRITE_SHEET_HEALTH_POTION.src =
-            "./TEXTURES/ITEMS/ITEM_POTION_HEALTH.PNG";
+            "/TEXTURES/ITEMS/ITEM_POTION_HEALTH.PNG";
         const SPRITE_SHEET_GOLD_COIN = new Image();
         SPRITE_SHEET_GOLD_COIN.src = "TEXTURES/ITEMS/ITEM_GOLD_COIN.PNG";
 
