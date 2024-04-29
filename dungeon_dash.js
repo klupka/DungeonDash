@@ -89,13 +89,13 @@ window.addEventListener("load", function () {
         var sounds = {
             SFX_CAVE_AMBIENCE: new Howl({
                 src: ["AUDIO/SFX_CAVE_AMBIENCE.mp3"],
-                autoplay: true,
+                autoplay: false,
                 loop: true,
                 volume: 0,
             }),
             SFX_HORROR_AMBIENCE: new Howl({
                 src: ["AUDIO/SFX_HORROR_AMBIENCE.mp3"],
-                autoplay: true,
+                autoplay: false,
                 loop: true,
                 volume: 0,
             }),
