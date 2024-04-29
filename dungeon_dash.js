@@ -2752,6 +2752,9 @@ window.addEventListener("load", function () {
 
         // CORE GAME LOOP: HANDLES UPDATING/DRAWING OBJECTS, SPAWNING ENTITIES, PAUSE EVENT, ETC.
         function coreGameLoop() {
+            // IF CORE GAME LOOP, SHOW TITLE SCREEN IS FALSE
+            showTitleScreen = false;
+
             if (!showDeathScreen && player.healthPoints > 0) {
                 // AUDIO: PLAY NECESSARY FOR GAME LOOP
                 if (sounds.MUSIC_GAME_PLAY.playing() === false) {
