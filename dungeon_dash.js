@@ -3029,10 +3029,14 @@ window.addEventListener("load", function () {
                         )
                             sound.stop();
                     });
-                    // AUDIO: PLAY TITLE MUSIC IF NOT ALREADY PLAYING
-                    if (sounds.MUSIC_TITLE_SCREEN.playing() === false) {
-                        sounds.MUSIC_TITLE_SCREEN.play();
-                    }
+
+                    // ONLY PLAY TITLE SCREEN MUSIC IF WINDOW HAS BEEN CLICKED
+                    window.addEventListener("click", () => {
+                        // AUDIO: PLAY TITLE MUSIC IF NOT ALREADY PLAYING
+                        if (sounds.MUSIC_TITLE_SCREEN.playing() === false) {
+                            sounds.MUSIC_TITLE_SCREEN.play();
+                        }
+                    });
 
                     // BACKGROUND: TITLE SCREEN
                     ctx.save();
