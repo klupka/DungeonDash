@@ -23,6 +23,7 @@ window.addEventListener("load", function () {
         let blinkingTextAlpha = 1;
         let increaseBlinkingTextAlpha = false;
         let loopGame = true;
+        let titleScreenClicked = false;
 
         // PLATFORM SPRITE IMAGES
         const SPRITE_PLATFORM_MEDIUM_MOVING = new Image();
@@ -3033,8 +3034,13 @@ window.addEventListener("load", function () {
                     // ONLY PLAY TITLE SCREEN MUSIC IF WINDOW HAS BEEN CLICKED
                     window.addEventListener("click", () => {
                         console.log("clicked");
+
                         // AUDIO: PLAY TITLE MUSIC IF NOT ALREADY PLAYING
-                        if (sounds.MUSIC_TITLE_SCREEN.playing() === false) {
+                        if (
+                            sounds.MUSIC_TITLE_SCREEN.playing() === false &&
+                            !titleScreenClicked
+                        ) {
+                            titleScreenClicked = true;
                             console.log("playing title screen music");
                             sounds.MUSIC_TITLE_SCREEN.play();
                         }
