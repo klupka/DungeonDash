@@ -2,6 +2,8 @@
 window.addEventListener("load", function () {
     // BOOLEAN TOGGLE FOR TITLE SCREEN
     let showTitleScreen = true;
+    // BOOLEAN TOGGLE FOR TITLE SCREEN MUSIC
+    let titleScreenClicked = false;
 
     // FUNCTION CALLED TO RESET GAME UPON PLAYER DEATH, REDEFINES GAME PROPERTIES
     function playGame() {
@@ -23,7 +25,6 @@ window.addEventListener("load", function () {
         let blinkingTextAlpha = 1;
         let increaseBlinkingTextAlpha = false;
         let loopGame = true;
-        let titleScreenClicked = false;
 
         // PLATFORM SPRITE IMAGES
         const SPRITE_PLATFORM_MEDIUM_MOVING = new Image();
@@ -3032,7 +3033,7 @@ window.addEventListener("load", function () {
                     });
 
                     // ONLY PLAY TITLE SCREEN MUSIC IF WINDOW HAS BEEN CLICKED
-                    if (!titleScreenClicked) {
+                    if (!titleScreenClicked && showTitleScreen) {
                         window.addEventListener("click", () => {
                             titleScreenClicked = true;
                             console.log("clicked");
