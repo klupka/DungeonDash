@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+            rel="stylesheet"
+        />
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dungeon Dash</title>
+    </head>
+    <body>
+        <div class="canvas-controls-container">
+            <canvas id="canvas" width="200" height="400"></canvas>
+            <div class="controls">
+                <div class="up-arrow">
+                    <div class="up-arrow-image-container">
+                        <div class="up-arrow-image"></div>
+                    </div>
+                    <div class="up-arrow-text">Jump</div>
+                </div>
+                <div class="left-arrow">
+                    <div class="left-arrow-image-container">
+                        <div class="left-arrow-image"></div>
+                    </div>
+                    <div class="left-arrow-text">Move Left</div>
+                </div>
+                <div class="right-arrow">
+                    <div class="right-arrow-image-container">
+                        <div class="right-arrow-image"></div>
+                    </div>
+                    <div class="right-arrow-text">Move Right</div>
+                </div>
+                <div class="z">
+                    <div class="z-image-container">
+                        <div class="z-image"></div>
+                    </div>
+                    <div class="z-text">Throw Knife</div>
+                </div>
+                <div class="pause">
+                    <div class="pause-image-container">
+                        <div class="pause-image"></div>
+                    </div>
+                    <div class="pause-text">Pause / Resume</div>
+                </div>
+            </div>
+        </div>
+
+        <script src="dungeon_dash.js"></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js"
+            integrity="sha512-xi/RZRIF/S0hJ+yJJYuZ5yk6/8pCiRlEXZzoguSMl+vk2i3m6UjUO/WcZ11blRL/O+rnj94JRGwt/CHbc9+6EA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+    </body>
+</html>

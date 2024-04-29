@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    background-color: #0f0d17;
+    font-family: "DotGothic16", sans-serif;
+    background-image: url("/TEXTURES/BACKGROUNDS/BACKGROUND_WEB.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.canvas-controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+canvas {
+    width: 400px;
+    height: 800px;
+    image-rendering: pixelated;
+    border: 5px solid #384464;
+}
+
+.up-arrow {
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+}
+
+.up-arrow-text {
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.up-arrow-image-container {
+    width: 42px;
+    overflow: hidden;
+}
+
+.up-arrow-image {
+    padding: 1rem;
+    width: 400px;
+    height: 5px;
+    background-image: url("TEXTURES/UI/KEYBOARD_LETTERS_SYMBOLS.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: -5px 368px;
+}
+
+.left-arrow {
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+}
+
+.left-arrow-text {
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.left-arrow-image-container {
+    width: 42px;
+    overflow: hidden;
+}
+
+.left-arrow-image {
+    padding: 1rem;
+    width: 400px;
+    height: 5px;
+    background-image: url("TEXTURES/UI/KEYBOARD_LETTERS_SYMBOLS.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: -112px 368px;
+}
+
+.right-arrow {
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+}
+
+.right-arrow-text {
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.right-arrow-image-container {
+    width: 42px;
+    overflow: hidden;
+}
+
+.right-arrow-image {
+    padding: 1rem;
+    width: 400px;
+    height: 5px;
+    background-image: url("TEXTURES/UI/KEYBOARD_LETTERS_SYMBOLS.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: -166.5px 368px;
+}
+
+.z {
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+}
+
+.z-text {
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.z-image-container {
+    width: 42px;
+    overflow: hidden;
+}
+
+.z-image {
+    padding: 1rem;
+    width: 400px;
+    background-image: url("TEXTURES/UI/KEYBOARD_LETTERS_SYMBOLS.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: -58px 98px;
+}
+
+.pause {
+    padding: 0.5rem;
+    color: white;
+    display: flex;
+}
+
+.pause-text {
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.pause-image-container {
+    width: 42px;
+
+    overflow: hidden;
+}
+
+.pause-image {
+    padding: 1rem;
+    width: 400px;
+    height: 5px;
+    background-image: url("TEXTURES/UI/KEYBOARD_LETTERS_SYMBOLS.png");
+    background-size: cover;
+    image-rendering: pixelated;
+    background-position: -382.5px 205px;
+}
+
+.img_keyboard_letters_symbols {
+    clip-path: inset(20px 50px 10px 0 round 50px);
+}
