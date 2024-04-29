@@ -76,14 +76,14 @@ window.addEventListener("load", function () {
         // ITEM IMAGES
         const SPRITE_SHEET_HEALTH_POTION = new Image();
         SPRITE_SHEET_HEALTH_POTION.src =
-            "/https://klupka.github.io/DungeonDash/TEXTURES/ITEMS/ITEM_POTION_HEALTH.PNG";
+            "TEXTURES/ITEMS/ITEM_POTION_HEALTH.png";
         const SPRITE_SHEET_GOLD_COIN = new Image();
-        SPRITE_SHEET_GOLD_COIN.src = "TEXTURES/ITEMS/ITEM_GOLD_COIN.PNG";
+        SPRITE_SHEET_GOLD_COIN.src = "TEXTURES/ITEMS/ITEM_GOLD_COIN.png";
 
         const ITEM_PLAYER_DAGGER = new Image();
-        ITEM_PLAYER_DAGGER.src = "TEXTURES/ITEMS/ITEM_PLAYER_DAGGER.PNG";
+        ITEM_PLAYER_DAGGER.src = "TEXTURES/ITEMS/ITEM_PLAYER_DAGGER.png";
         const ITEM_SAW_BLADE = new Image();
-        ITEM_SAW_BLADE.src = "TEXTURES/ITEMS/ITEM_SAW_BLADE.PNG";
+        ITEM_SAW_BLADE.src = "TEXTURES/ITEMS/ITEM_SAW_BLADE.png";
 
         // AUDIO FILES
         var sounds = {
