@@ -3036,8 +3036,8 @@ window.addEventListener("load", function () {
                     });
 
                     // ONLY PLAY TITLE SCREEN MUSIC IF WINDOW HAS BEEN CLICKED
-                    if (!titleScreenClicked && showTitleScreen) {
-                        window.addEventListener("click", () => {
+                    window.addEventListener("click", () => {
+                        if (!titleScreenClicked && showTitleScreen) {
                             titleScreenClicked = true;
                             console.log("clicked");
 
@@ -3046,8 +3046,8 @@ window.addEventListener("load", function () {
                                 console.log("playing title screen music");
                                 sounds.MUSIC_TITLE_SCREEN.play();
                             }
-                        });
-                    }
+                        }
+                    });
 
                     // BACKGROUND: TITLE SCREEN
                     ctx.save();
