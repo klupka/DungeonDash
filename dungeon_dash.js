@@ -3032,19 +3032,18 @@ window.addEventListener("load", function () {
                     });
 
                     // ONLY PLAY TITLE SCREEN MUSIC IF WINDOW HAS BEEN CLICKED
-                    window.addEventListener("click", () => {
-                        console.log("clicked");
-
-                        // AUDIO: PLAY TITLE MUSIC IF NOT ALREADY PLAYING
-                        if (
-                            sounds.MUSIC_TITLE_SCREEN.playing() === false &&
-                            !titleScreenClicked
-                        ) {
+                    if (!titleScreenClicked) {
+                        window.addEventListener("click", () => {
                             titleScreenClicked = true;
-                            console.log("playing title screen music");
-                            sounds.MUSIC_TITLE_SCREEN.play();
-                        }
-                    });
+                            console.log("clicked");
+
+                            // AUDIO: PLAY TITLE MUSIC IF NOT ALREADY PLAYING
+                            if (sounds.MUSIC_TITLE_SCREEN.playing() === false) {
+                                console.log("playing title screen music");
+                                sounds.MUSIC_TITLE_SCREEN.play();
+                            }
+                        });
+                    }
 
                     // BACKGROUND: TITLE SCREEN
                     ctx.save();
