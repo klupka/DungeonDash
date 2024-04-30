@@ -3100,7 +3100,7 @@ window.addEventListener("load", function () {
                 gameFrame++;
 
                 // RESTRICT THE FRAMERATE SO THAT IT PLAYS AT THE SAME SPEED ON ANY SCREEN
-                let framerate = 100;
+                let framerate = 70;
                 setTimeout(() => {
                     requestAnimationFrame(animate);
                 }, 1000 / framerate);
