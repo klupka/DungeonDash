@@ -167,18 +167,18 @@ window.addEventListener("load", function () {
                 volume: 0,
             }),
             MUSIC_GAME_PLAY: new Howl({
-                src: ["AUDIO/MUSIC_ICY_CAVE.wav"],
+                src: ["AUDIO/MUSIC_ICY_CAVE.mp3"],
                 loop: true,
                 volume: 0.6,
             }),
             MUSIC_DEATH: new Howl({
-                src: ["AUDIO/MUSIC_THE_FINAL_FANTASY.wav"],
+                src: ["AUDIO/MUSIC_THE_FINAL_FANTASY.mp3"],
                 autoplay: false,
                 loop: true,
                 volume: 0.6,
             }),
             MUSIC_TITLE_SCREEN: new Howl({
-                src: ["AUDIO/MUSIC_MYSTERIOUS_DUNGEON.wav"],
+                src: ["AUDIO/MUSIC_MYSTERIOUS_DUNGEON.mp3"],
                 loop: true,
                 volume: 0.6,
             }),
