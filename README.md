@@ -11,10 +11,10 @@
 ## Usage
 
 -   User input keys:
-  -   **[Up Arrow]** - Jump
-  -   **[Left Arrow]** - Move Left
-  -   **[Right Arrow]** - Move Right
-  -   **[Z]** - Throw knife
-  -   **[P]** - Pause / Resume
+    -   **[Up Arrow]** - Jump
+    -   **[Left Arrow]** - Move Left
+    -   **[Right Arrow]** - Move Right
+    -   **[Z]** - Throw knife
+    -   **[P]** - Pause / Resume
 
 -  Objective: Gather coins and climb to new heights to boost your score.
