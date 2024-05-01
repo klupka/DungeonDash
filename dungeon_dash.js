@@ -2504,7 +2504,7 @@ window.addEventListener("load", function () {
         const titleScreenBackground = new Background(
             0,
             0,
-            "TEXTURES/BACKGROUNDS/COVER_ART_4.png"
+            "TEXTURES/BACKGROUNDS/COVER_ART_COMPRESSED.png"
         );
 
         // GENERATE RANDOM WEIGHTED ITEM
