@@ -8,12 +8,26 @@ body {
     background-size: cover;
 }
 
-.canvas-controls-container {
+.page-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
+}
+.container {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+.credits {
+    font-size: small;
+    padding-left: 5rem;
+}
+
+.canvas-controls-container {
+    display: flex;
+    align-items: center;
 }
 
 canvas {
